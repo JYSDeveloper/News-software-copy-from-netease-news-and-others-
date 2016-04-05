@@ -1,0 +1,6 @@
+platform :ios, '8.0'
+pod 'AFNetworking', '~> 3.0.4'
+pod 'MJRefresh', '~> 3.1.0'
+pod 'SDWebImage', '~> 3.7.5'
+pod 'MMDrawerController', '~> 0.6.0'
+pod 'RDVTabBarController', '~>1.1.9'

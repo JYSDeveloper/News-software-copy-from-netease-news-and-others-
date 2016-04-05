@@ -1,0 +1,37 @@
+//
+//  PrefixHeader.pch
+//  IngeniousNews
+//
+//  Created by 姜雨生 on 16/2/27.
+//  Copyright © 2016年 姜雨生. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+
+#define UISCREENHEIGHT ([UIScreen mainScreen].bounds.size.height)
+#define UISCREENWIDTH ([UIScreen mainScreen].bounds.size.width)
+
+/** Cell高度*/
+#define ONEIMAGECELLHEIGHT 80
+#define ONEBIGIMAGECELLHEIGHT 250
+#define IMAGESCELLHEIGHT 130
+#define LISTENCELLHEIGHT 100
+#define TALKCELLHEIGHT 300
+
+/** Cell标识符*/
+#define NEWSONEIMAGECELL @"OneImageCell"
+#define NEWSONEBIGIMAGECELL @"BigImageCell"
+#define NEWSIMAGESCELL @"ImagesCell"
+#define NEWSONEIMAGECELLSPECIAL @"OneImageCellSpecial"
+#define LISTENCELL @"listenCell"
+#define CITYNORMAL @"CityNormal"
+#define CITYIMAGE  @"CityImage"
+#define TALKCELL @"TalkCell"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
